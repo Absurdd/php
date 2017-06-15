@@ -1,0 +1,1033 @@
+2017-06-13 21:20:21 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'The use statement with non-compound name 'Yii' has no effect' in D:\OpenServer\domains\localhost\basic\views\site\about.php:4
+Stack trace:
+#0 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\View.php(330): yii\base\ErrorHandler->handleError(2, 'The use stateme...', 'D:\\OpenServer\\d...', 4, Array)
+#1 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\View.php(330): yii\base\View::renderPhpFile()
+#2 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\OpenServer\\d...', Array)
+#3 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\OpenServer\\d...', Array, Object(app\controllers\SiteController))
+#4 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('about', Array, Object(app\controllers\SiteController))
+#5 D:\OpenServer\domains\localhost\basic\controllers\SiteController.php(124): yii\base\Controller->render('about')
+#6 [internal function]: app\controllers\SiteController->actionAbout()
+#7 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('about', Array)
+#10 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/about', Array)
+#11 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\OpenServer\domains\localhost\basic\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2017-06-13 21:20:21 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/about'
+]
+
+$_COOKIE = [
+    'Phpstorm-659e3df' => '246c5b04-0978-4e0e-820a-984d808f9be0'
+    'ai_user' => 'rxw8v|2017-03-14T21:56:51.222Z'
+    '_csrf' => '3535ead9542247738489b33fec9755e1d2ac7178a1821d8e9f55f63a1b41da03a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"à(≥˜›÷ó∫ÅÓ¶∞Û§bPÙ)™Â»˘¨Z\\<æÆ\";}'
+    'PHPSESSID' => 'b3168ch4c24056osej6i8fa7h2'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/basic/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'Phpstorm-659e3df=246c5b04-0978-4e0e-820a-984d808f9be0; ai_user=rxw8v|2017-03-14T21:56:51.222Z; _csrf=3535ead9542247738489b33fec9755e1d2ac7178a1821d8e9f55f63a1b41da03a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%88%28%B3%F7%13%DD%D6%97%BA%08%81%EE%A6%B0%F3%13%A4bP%F4%29%AA%E5%C8%F9%ACZ%5C%3C%BE%08%AE%22%3B%7D; PHPSESSID=b3168ch4c24056osej6i8fa7h2'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP-5.6\\ext;d:\\openserver\\modules\\php\\PHP-5.6\\pear;d:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;d:\\openserver\\modules\\php\\PHP-5.6;d:\\openserver\\modules\\imagemagick;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\git;d:\\openserver\\modules\\git\\bin;d:\\openserver\\modules\\git\\mingw\\bin;d:\\openserver\\modules\\git\\cmd;d:\\openserver\\modules\\database\\MySQL-5.7\\bin;d:\\openserver\\modules\\http\\Apache-2.4\\bin;d:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/localhost/basic/web/index.php'
+    'REMOTE_PORT' => '1814'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fabout'
+    'REQUEST_URI' => '/basic/web/index.php?r=site%2Fabout'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1497378021.419
+    'REQUEST_TIME' => 1497378021
+    'argv' => [
+        0 => 'r=site%2Fabout'
+    ]
+    'argc' => 1
+]
+2017-06-13 21:37:37 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'class' (T_CLASS)' in D:\OpenServer\domains\localhost\basic\views\site\about.php:19
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-06-13 21:37:37 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/about'
+]
+
+$_COOKIE = [
+    'Phpstorm-659e3df' => '246c5b04-0978-4e0e-820a-984d808f9be0'
+    'ai_user' => 'rxw8v|2017-03-14T21:56:51.222Z'
+    '_csrf' => '3535ead9542247738489b33fec9755e1d2ac7178a1821d8e9f55f63a1b41da03a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"à(≥˜›÷ó∫ÅÓ¶∞Û§bPÙ)™Â»˘¨Z\\<æÆ\";}'
+    'PHPSESSID' => 'b3168ch4c24056osej6i8fa7h2'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/basic/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'Phpstorm-659e3df=246c5b04-0978-4e0e-820a-984d808f9be0; ai_user=rxw8v|2017-03-14T21:56:51.222Z; _csrf=3535ead9542247738489b33fec9755e1d2ac7178a1821d8e9f55f63a1b41da03a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%88%28%B3%F7%13%DD%D6%97%BA%08%81%EE%A6%B0%F3%13%A4bP%F4%29%AA%E5%C8%F9%ACZ%5C%3C%BE%08%AE%22%3B%7D; PHPSESSID=b3168ch4c24056osej6i8fa7h2'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP-5.6\\ext;d:\\openserver\\modules\\php\\PHP-5.6\\pear;d:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;d:\\openserver\\modules\\php\\PHP-5.6;d:\\openserver\\modules\\imagemagick;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\git;d:\\openserver\\modules\\git\\bin;d:\\openserver\\modules\\git\\mingw\\bin;d:\\openserver\\modules\\git\\cmd;d:\\openserver\\modules\\database\\MySQL-5.7\\bin;d:\\openserver\\modules\\http\\Apache-2.4\\bin;d:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/localhost/basic/web/index.php'
+    'REMOTE_PORT' => '2467'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fabout'
+    'REQUEST_URI' => '/basic/web/index.php?r=site%2Fabout'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1497379057.229
+    'REQUEST_TIME' => 1497379057
+    'argv' => [
+        0 => 'r=site%2Fabout'
+    ]
+    'argc' => 1
+]
+2017-06-14 20:03:23 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'yii2basic'' in D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Connection.php:646
+Stack trace:
+#0 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Connection.php(646): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Connection.php(579): yii\db\Connection->createPdoInstance()
+#2 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Connection.php(928): yii\db\Connection->open()
+#3 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Connection.php(915): yii\db\Connection->getMasterPdo()
+#4 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#5 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Command.php(910): yii\db\Command->prepare('<span class="ke...')
+#6 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Query.php(213): yii\db\Command->queryAll()
+#8 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\ActiveQuery.php(135): yii\db\Query->all('<span class="ke...')
+#9 D:\OpenServer\domains\localhost\basic\views\site\about.php(19): yii\db\ActiveQuery->all()
+#10 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\View.php(330): require('D:\\OpenServer\\d...')
+#11 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('<span class="st...', '[]')
+#12 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('<span class="st...', '[]', Object(app\controllers\SiteController))
+#13 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('<span class="st...', '[]', Object(app\controllers\SiteController))
+#14 D:\OpenServer\domains\localhost\basic\controllers\SiteController.php(124): yii\base\Controller->render('<span class="st...')
+#15 [internal function]: app\controllers\SiteController->actionAbout()
+#16 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#17 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams('[<span class="s...')
+#18 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#19 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#20 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 D:\OpenServer\domains\localhost\basic\web\index.php(12): yii\base\Application->run()
+#22 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1049] Unknown database 'yii2basic'' in D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Connection.php:584
+Stack trace:
+#0 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Connection.php(928): yii\db\Connection->open()
+#1 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Connection.php(915): yii\db\Connection->getMasterPdo()
+#2 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#3 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Command.php(910): yii\db\Command->prepare('<span class="ke...')
+#4 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#5 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Query.php(213): yii\db\Command->queryAll()
+#6 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\ActiveQuery.php(135): yii\db\Query->all('<span class="ke...')
+#7 D:\OpenServer\domains\localhost\basic\views\site\about.php(19): yii\db\ActiveQuery->all()
+#8 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\View.php(330): require('D:\\OpenServer\\d...')
+#9 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('<span class="st...', '[]')
+#10 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('<span class="st...', '[]', Object(app\controllers\SiteController))
+#11 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('<span class="st...', '[]', Object(app\controllers\SiteController))
+#12 D:\OpenServer\domains\localhost\basic\controllers\SiteController.php(124): yii\base\Controller->render('<span class="st...')
+#13 [internal function]: app\controllers\SiteController->actionAbout()
+#14 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#15 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams('[<span class="s...')
+#16 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#17 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#18 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 D:\OpenServer\domains\localhost\basic\web\index.php(12): yii\base\Application->run()
+#20 {main}
+Additional Information:
+
+2017-06-14 20:03:23 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/about'
+]
+
+$_COOKIE = [
+    'Phpstorm-659e3df' => '246c5b04-0978-4e0e-820a-984d808f9be0'
+    'ai_user' => 'rxw8v|2017-03-14T21:56:51.222Z'
+    '_csrf' => 'f52a00db8224ad797b055e39983d43284f0756259bdf9189ad6dae31a4789abda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"‡Ÿ\0ÉãPõÏ(X\\+gÑ®ªûÚT,ÒóëexahîÜÌË\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/basic/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'Phpstorm-659e3df=246c5b04-0978-4e0e-820a-984d808f9be0; ai_user=rxw8v|2017-03-14T21:56:51.222Z; _csrf=f52a00db8224ad797b055e39983d43284f0756259bdf9189ad6dae31a4789abda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%E0%D9%00%83%8BP%9B%EC%28X%5C%2Bg%0D%84%A8%BB%9E%F2T%2C%F1%97%91exah%94%86%ED%E8%22%3B%7D'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP-5.6\\ext;d:\\openserver\\modules\\php\\PHP-5.6\\pear;d:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;d:\\openserver\\modules\\php\\PHP-5.6;d:\\openserver\\modules\\imagemagick;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\git;d:\\openserver\\modules\\git\\bin;d:\\openserver\\modules\\git\\mingw\\bin;d:\\openserver\\modules\\git\\cmd;d:\\openserver\\modules\\database\\MySQL-5.7\\bin;d:\\openserver\\modules\\http\\Apache-2.4\\bin;d:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/localhost/basic/web/index.php'
+    'REMOTE_PORT' => '3145'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fabout'
+    'REQUEST_URI' => '/basic/web/index.php?r=site%2Fabout'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1497459803.651
+    'REQUEST_TIME' => 1497459803
+    'argv' => [
+        0 => 'r=site%2Fabout'
+    ]
+    'argc' => 1
+]
+2017-06-14 20:03:45 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'yii2basic'' in D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Connection.php:646
+Stack trace:
+#0 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Connection.php(646): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Connection.php(579): yii\db\Connection->createPdoInstance()
+#2 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Connection.php(928): yii\db\Connection->open()
+#3 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Connection.php(915): yii\db\Connection->getMasterPdo()
+#4 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#5 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Command.php(910): yii\db\Command->prepare('<span class="ke...')
+#6 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Query.php(213): yii\db\Command->queryAll()
+#8 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\ActiveQuery.php(135): yii\db\Query->all('<span class="ke...')
+#9 D:\OpenServer\domains\localhost\basic\views\site\about.php(19): yii\db\ActiveQuery->all()
+#10 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\View.php(330): require('D:\\OpenServer\\d...')
+#11 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('<span class="st...', '[]')
+#12 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('<span class="st...', '[]', Object(app\controllers\SiteController))
+#13 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('<span class="st...', '[]', Object(app\controllers\SiteController))
+#14 D:\OpenServer\domains\localhost\basic\controllers\SiteController.php(124): yii\base\Controller->render('<span class="st...')
+#15 [internal function]: app\controllers\SiteController->actionAbout()
+#16 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#17 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams('[<span class="s...')
+#18 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#19 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#20 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 D:\OpenServer\domains\localhost\basic\web\index.php(12): yii\base\Application->run()
+#22 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1049] Unknown database 'yii2basic'' in D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Connection.php:584
+Stack trace:
+#0 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Connection.php(928): yii\db\Connection->open()
+#1 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Connection.php(915): yii\db\Connection->getMasterPdo()
+#2 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#3 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Command.php(910): yii\db\Command->prepare('<span class="ke...')
+#4 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#5 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Query.php(213): yii\db\Command->queryAll()
+#6 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\ActiveQuery.php(135): yii\db\Query->all('<span class="ke...')
+#7 D:\OpenServer\domains\localhost\basic\views\site\about.php(19): yii\db\ActiveQuery->all()
+#8 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\View.php(330): require('D:\\OpenServer\\d...')
+#9 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('<span class="st...', '[]')
+#10 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('<span class="st...', '[]', Object(app\controllers\SiteController))
+#11 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('<span class="st...', '[]', Object(app\controllers\SiteController))
+#12 D:\OpenServer\domains\localhost\basic\controllers\SiteController.php(124): yii\base\Controller->render('<span class="st...')
+#13 [internal function]: app\controllers\SiteController->actionAbout()
+#14 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#15 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams('[<span class="s...')
+#16 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#17 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#18 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 D:\OpenServer\domains\localhost\basic\web\index.php(12): yii\base\Application->run()
+#20 {main}
+Additional Information:
+
+2017-06-14 20:03:44 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/about'
+]
+
+$_COOKIE = [
+    'Phpstorm-659e3df' => '246c5b04-0978-4e0e-820a-984d808f9be0'
+    'ai_user' => 'rxw8v|2017-03-14T21:56:51.222Z'
+    '_csrf' => 'f52a00db8224ad797b055e39983d43284f0756259bdf9189ad6dae31a4789abda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"‡Ÿ\0ÉãPõÏ(X\\+gÑ®ªûÚT,ÒóëexahîÜÌË\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/basic/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'Phpstorm-659e3df=246c5b04-0978-4e0e-820a-984d808f9be0; ai_user=rxw8v|2017-03-14T21:56:51.222Z; _csrf=f52a00db8224ad797b055e39983d43284f0756259bdf9189ad6dae31a4789abda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%E0%D9%00%83%8BP%9B%EC%28X%5C%2Bg%0D%84%A8%BB%9E%F2T%2C%F1%97%91exah%94%86%ED%E8%22%3B%7D'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP-5.6\\ext;d:\\openserver\\modules\\php\\PHP-5.6\\pear;d:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;d:\\openserver\\modules\\php\\PHP-5.6;d:\\openserver\\modules\\imagemagick;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\git;d:\\openserver\\modules\\git\\bin;d:\\openserver\\modules\\git\\mingw\\bin;d:\\openserver\\modules\\git\\cmd;d:\\openserver\\modules\\database\\MySQL-5.7\\bin;d:\\openserver\\modules\\http\\Apache-2.4\\bin;d:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/localhost/basic/web/index.php'
+    'REMOTE_PORT' => '3158'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fabout'
+    'REQUEST_URI' => '/basic/web/index.php?r=site%2Fabout'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1497459824.925
+    'REQUEST_TIME' => 1497459824
+    'argv' => [
+        0 => 'r=site%2Fabout'
+    ]
+    'argc' => 1
+]
+2017-06-14 20:06:56 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'yii2basic'' in D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Connection.php:646
+Stack trace:
+#0 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Connection.php(646): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Connection.php(579): yii\db\Connection->createPdoInstance()
+#2 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Connection.php(928): yii\db\Connection->open()
+#3 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Connection.php(915): yii\db\Connection->getMasterPdo()
+#4 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#5 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Command.php(910): yii\db\Command->prepare('<span class="ke...')
+#6 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Query.php(213): yii\db\Command->queryAll()
+#8 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\ActiveQuery.php(135): yii\db\Query->all('<span class="ke...')
+#9 D:\OpenServer\domains\localhost\basic\views\site\about.php(19): yii\db\ActiveQuery->all()
+#10 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\View.php(330): require('D:\\OpenServer\\d...')
+#11 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('<span class="st...', '[]')
+#12 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('<span class="st...', '[]', Object(app\controllers\SiteController))
+#13 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('<span class="st...', '[]', Object(app\controllers\SiteController))
+#14 D:\OpenServer\domains\localhost\basic\controllers\SiteController.php(124): yii\base\Controller->render('<span class="st...')
+#15 [internal function]: app\controllers\SiteController->actionAbout()
+#16 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#17 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams('[<span class="s...')
+#18 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#19 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#20 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 D:\OpenServer\domains\localhost\basic\web\index.php(12): yii\base\Application->run()
+#22 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1049] Unknown database 'yii2basic'' in D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Connection.php:584
+Stack trace:
+#0 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Connection.php(928): yii\db\Connection->open()
+#1 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Connection.php(915): yii\db\Connection->getMasterPdo()
+#2 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#3 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Command.php(910): yii\db\Command->prepare('<span class="ke...')
+#4 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#5 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Query.php(213): yii\db\Command->queryAll()
+#6 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\ActiveQuery.php(135): yii\db\Query->all('<span class="ke...')
+#7 D:\OpenServer\domains\localhost\basic\views\site\about.php(19): yii\db\ActiveQuery->all()
+#8 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\View.php(330): require('D:\\OpenServer\\d...')
+#9 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('<span class="st...', '[]')
+#10 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('<span class="st...', '[]', Object(app\controllers\SiteController))
+#11 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('<span class="st...', '[]', Object(app\controllers\SiteController))
+#12 D:\OpenServer\domains\localhost\basic\controllers\SiteController.php(124): yii\base\Controller->render('<span class="st...')
+#13 [internal function]: app\controllers\SiteController->actionAbout()
+#14 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#15 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams('[<span class="s...')
+#16 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#17 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#18 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 D:\OpenServer\domains\localhost\basic\web\index.php(12): yii\base\Application->run()
+#20 {main}
+Additional Information:
+
+2017-06-14 20:06:56 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/about'
+]
+
+$_COOKIE = [
+    'Phpstorm-659e3df' => '246c5b04-0978-4e0e-820a-984d808f9be0'
+    'ai_user' => 'rxw8v|2017-03-14T21:56:51.222Z'
+    '_csrf' => 'f52a00db8224ad797b055e39983d43284f0756259bdf9189ad6dae31a4789abda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"‡Ÿ\0ÉãPõÏ(X\\+gÑ®ªûÚT,ÒóëexahîÜÌË\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/basic/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'Phpstorm-659e3df=246c5b04-0978-4e0e-820a-984d808f9be0; ai_user=rxw8v|2017-03-14T21:56:51.222Z; _csrf=f52a00db8224ad797b055e39983d43284f0756259bdf9189ad6dae31a4789abda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%E0%D9%00%83%8BP%9B%EC%28X%5C%2Bg%0D%84%A8%BB%9E%F2T%2C%F1%97%91exah%94%86%ED%E8%22%3B%7D'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP-5.6\\ext;d:\\openserver\\modules\\php\\PHP-5.6\\pear;d:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;d:\\openserver\\modules\\php\\PHP-5.6;d:\\openserver\\modules\\imagemagick;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\git;d:\\openserver\\modules\\git\\bin;d:\\openserver\\modules\\git\\mingw\\bin;d:\\openserver\\modules\\git\\cmd;d:\\openserver\\modules\\database\\MySQL-5.7\\bin;d:\\openserver\\modules\\http\\Apache-2.4\\bin;d:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/localhost/basic/web/index.php'
+    'REMOTE_PORT' => '3239'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fabout'
+    'REQUEST_URI' => '/basic/web/index.php?r=site%2Fabout'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1497460016.157
+    'REQUEST_TIME' => 1497460016
+    'argv' => [
+        0 => 'r=site%2Fabout'
+    ]
+    'argc' => 1
+]
+2017-06-14 20:08:59 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1115 Unknown character set: 'utf8_general_ci'' in D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Connection.php:663
+Stack trace:
+#0 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Connection.php(663): PDO->exec('SET NAMES 'utf8...')
+#1 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Connection.php(580): yii\db\Connection->initConnection()
+#2 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Connection.php(928): yii\db\Connection->open()
+#3 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Connection.php(915): yii\db\Connection->getMasterPdo()
+#4 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#5 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Command.php(910): yii\db\Command->prepare('<span class="ke...')
+#6 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Query.php(213): yii\db\Command->queryAll()
+#8 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\ActiveQuery.php(135): yii\db\Query->all('<span class="ke...')
+#9 D:\OpenServer\domains\localhost\basic\views\site\about.php(19): yii\db\ActiveQuery->all()
+#10 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\View.php(330): require('D:\\OpenServer\\d...')
+#11 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('<span class="st...', '[]')
+#12 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('<span class="st...', '[]', Object(app\controllers\SiteController))
+#13 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('<span class="st...', '[]', Object(app\controllers\SiteController))
+#14 D:\OpenServer\domains\localhost\basic\controllers\SiteController.php(124): yii\base\Controller->render('<span class="st...')
+#15 [internal function]: app\controllers\SiteController->actionAbout()
+#16 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#17 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams('[<span class="s...')
+#18 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#19 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#20 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 D:\OpenServer\domains\localhost\basic\web\index.php(12): yii\base\Application->run()
+#22 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1115 Unknown character set: 'utf8_general_ci'' in D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Connection.php:584
+Stack trace:
+#0 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Connection.php(928): yii\db\Connection->open()
+#1 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Connection.php(915): yii\db\Connection->getMasterPdo()
+#2 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#3 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Command.php(910): yii\db\Command->prepare('<span class="ke...')
+#4 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#5 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Query.php(213): yii\db\Command->queryAll()
+#6 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\ActiveQuery.php(135): yii\db\Query->all('<span class="ke...')
+#7 D:\OpenServer\domains\localhost\basic\views\site\about.php(19): yii\db\ActiveQuery->all()
+#8 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\View.php(330): require('D:\\OpenServer\\d...')
+#9 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('<span class="st...', '[]')
+#10 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('<span class="st...', '[]', Object(app\controllers\SiteController))
+#11 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('<span class="st...', '[]', Object(app\controllers\SiteController))
+#12 D:\OpenServer\domains\localhost\basic\controllers\SiteController.php(124): yii\base\Controller->render('<span class="st...')
+#13 [internal function]: app\controllers\SiteController->actionAbout()
+#14 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#15 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams('[<span class="s...')
+#16 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#17 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#18 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 D:\OpenServer\domains\localhost\basic\web\index.php(12): yii\base\Application->run()
+#20 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1115
+    [2] => Unknown character set: 'utf8_general_ci'
+)
+
+2017-06-14 20:08:59 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/about'
+]
+
+$_COOKIE = [
+    'Phpstorm-659e3df' => '246c5b04-0978-4e0e-820a-984d808f9be0'
+    'ai_user' => 'rxw8v|2017-03-14T21:56:51.222Z'
+    '_csrf' => 'f52a00db8224ad797b055e39983d43284f0756259bdf9189ad6dae31a4789abda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"‡Ÿ\0ÉãPõÏ(X\\+gÑ®ªûÚT,ÒóëexahîÜÌË\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/basic/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'Phpstorm-659e3df=246c5b04-0978-4e0e-820a-984d808f9be0; ai_user=rxw8v|2017-03-14T21:56:51.222Z; _csrf=f52a00db8224ad797b055e39983d43284f0756259bdf9189ad6dae31a4789abda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%E0%D9%00%83%8BP%9B%EC%28X%5C%2Bg%0D%84%A8%BB%9E%F2T%2C%F1%97%91exah%94%86%ED%E8%22%3B%7D'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP-5.6\\ext;d:\\openserver\\modules\\php\\PHP-5.6\\pear;d:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;d:\\openserver\\modules\\php\\PHP-5.6;d:\\openserver\\modules\\imagemagick;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\git;d:\\openserver\\modules\\git\\bin;d:\\openserver\\modules\\git\\mingw\\bin;d:\\openserver\\modules\\git\\cmd;d:\\openserver\\modules\\database\\MySQL-5.7\\bin;d:\\openserver\\modules\\http\\Apache-2.4\\bin;d:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/localhost/basic/web/index.php'
+    'REMOTE_PORT' => '3308'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fabout'
+    'REQUEST_URI' => '/basic/web/index.php?r=site%2Fabout'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1497460139.653
+    'REQUEST_TIME' => 1497460139
+    'argv' => [
+        0 => 'r=site%2Fabout'
+    ]
+    'argc' => 1
+]
+2017-06-14 20:25:56 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Invalid argument supplied for foreach()' in D:\OpenServer\domains\localhost\basic\views\site\about.php:22
+Stack trace:
+#0 D:\OpenServer\domains\localhost\basic\views\site\about.php(22): yii\base\ErrorHandler->handleError(2, 'Invalid argumen...', 'D:\\OpenServer\\d...', 22, Array)
+#1 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\View.php(330): require('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\OpenServer\\d...', Array)
+#3 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\OpenServer\\d...', Array, Object(app\controllers\SiteController))
+#4 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('about', Array, Object(app\controllers\SiteController))
+#5 D:\OpenServer\domains\localhost\basic\controllers\SiteController.php(124): yii\base\Controller->render('about')
+#6 [internal function]: app\controllers\SiteController->actionAbout()
+#7 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('about', Array)
+#10 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/about', Array)
+#11 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\OpenServer\domains\localhost\basic\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2017-06-14 20:25:56 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/about'
+]
+
+$_COOKIE = [
+    'Phpstorm-659e3df' => '246c5b04-0978-4e0e-820a-984d808f9be0'
+    'ai_user' => 'rxw8v|2017-03-14T21:56:51.222Z'
+    '_csrf' => 'f52a00db8224ad797b055e39983d43284f0756259bdf9189ad6dae31a4789abda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"‡Ÿ\0ÉãPõÏ(X\\+gÑ®ªûÚT,ÒóëexahîÜÌË\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/basic/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'Phpstorm-659e3df=246c5b04-0978-4e0e-820a-984d808f9be0; ai_user=rxw8v|2017-03-14T21:56:51.222Z; _csrf=f52a00db8224ad797b055e39983d43284f0756259bdf9189ad6dae31a4789abda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%E0%D9%00%83%8BP%9B%EC%28X%5C%2Bg%0D%84%A8%BB%9E%F2T%2C%F1%97%91exah%94%86%ED%E8%22%3B%7D'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP-5.6\\ext;d:\\openserver\\modules\\php\\PHP-5.6\\pear;d:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;d:\\openserver\\modules\\php\\PHP-5.6;d:\\openserver\\modules\\imagemagick;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\git;d:\\openserver\\modules\\git\\bin;d:\\openserver\\modules\\git\\mingw\\bin;d:\\openserver\\modules\\git\\cmd;d:\\openserver\\modules\\database\\MySQL-5.7\\bin;d:\\openserver\\modules\\http\\Apache-2.4\\bin;d:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/localhost/basic/web/index.php'
+    'REMOTE_PORT' => '3416'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fabout'
+    'REQUEST_URI' => '/basic/web/index.php?r=site%2Fabout'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1497461156.47
+    'REQUEST_TIME' => 1497461156
+    'argv' => [
+        0 => 'r=site%2Fabout'
+    ]
+    'argc' => 1
+]
+2017-06-14 20:27:29 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Invalid argument supplied for foreach()' in D:\OpenServer\domains\localhost\basic\views\site\about.php:22
+Stack trace:
+#0 D:\OpenServer\domains\localhost\basic\views\site\about.php(22): yii\base\ErrorHandler->handleError(2, 'Invalid argumen...', 'D:\\OpenServer\\d...', 22, Array)
+#1 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\View.php(330): require('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\OpenServer\\d...', Array)
+#3 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\OpenServer\\d...', Array, Object(app\controllers\SiteController))
+#4 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('about', Array, Object(app\controllers\SiteController))
+#5 D:\OpenServer\domains\localhost\basic\controllers\SiteController.php(124): yii\base\Controller->render('about')
+#6 [internal function]: app\controllers\SiteController->actionAbout()
+#7 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('about', Array)
+#10 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/about', Array)
+#11 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\OpenServer\domains\localhost\basic\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2017-06-14 20:27:29 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/about'
+]
+
+$_COOKIE = [
+    'Phpstorm-659e3df' => '246c5b04-0978-4e0e-820a-984d808f9be0'
+    'ai_user' => 'rxw8v|2017-03-14T21:56:51.222Z'
+    '_csrf' => 'f52a00db8224ad797b055e39983d43284f0756259bdf9189ad6dae31a4789abda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"‡Ÿ\0ÉãPõÏ(X\\+gÑ®ªûÚT,ÒóëexahîÜÌË\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/basic/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'Phpstorm-659e3df=246c5b04-0978-4e0e-820a-984d808f9be0; ai_user=rxw8v|2017-03-14T21:56:51.222Z; _csrf=f52a00db8224ad797b055e39983d43284f0756259bdf9189ad6dae31a4789abda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%E0%D9%00%83%8BP%9B%EC%28X%5C%2Bg%0D%84%A8%BB%9E%F2T%2C%F1%97%91exah%94%86%ED%E8%22%3B%7D'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP-5.6\\ext;d:\\openserver\\modules\\php\\PHP-5.6\\pear;d:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;d:\\openserver\\modules\\php\\PHP-5.6;d:\\openserver\\modules\\imagemagick;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\git;d:\\openserver\\modules\\git\\bin;d:\\openserver\\modules\\git\\mingw\\bin;d:\\openserver\\modules\\git\\cmd;d:\\openserver\\modules\\database\\MySQL-5.7\\bin;d:\\openserver\\modules\\http\\Apache-2.4\\bin;d:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/localhost/basic/web/index.php'
+    'REMOTE_PORT' => '3427'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fabout'
+    'REQUEST_URI' => '/basic/web/index.php?r=site%2Fabout'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1497461249.602
+    'REQUEST_TIME' => 1497461249
+    'argv' => [
+        0 => 'r=site%2Fabout'
+    ]
+    'argc' => 1
+]
+2017-06-14 20:27:58 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Invalid argument supplied for foreach()' in D:\OpenServer\domains\localhost\basic\views\site\about.php:22
+Stack trace:
+#0 D:\OpenServer\domains\localhost\basic\views\site\about.php(22): yii\base\ErrorHandler->handleError(2, 'Invalid argumen...', 'D:\\OpenServer\\d...', 22, Array)
+#1 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\View.php(330): require('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\OpenServer\\d...', Array)
+#3 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\OpenServer\\d...', Array, Object(app\controllers\SiteController))
+#4 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('about', Array, Object(app\controllers\SiteController))
+#5 D:\OpenServer\domains\localhost\basic\controllers\SiteController.php(124): yii\base\Controller->render('about')
+#6 [internal function]: app\controllers\SiteController->actionAbout()
+#7 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('about', Array)
+#10 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/about', Array)
+#11 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\OpenServer\domains\localhost\basic\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2017-06-14 20:27:58 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/about'
+]
+
+$_COOKIE = [
+    'Phpstorm-659e3df' => '246c5b04-0978-4e0e-820a-984d808f9be0'
+    'ai_user' => 'rxw8v|2017-03-14T21:56:51.222Z'
+    '_csrf' => 'f52a00db8224ad797b055e39983d43284f0756259bdf9189ad6dae31a4789abda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"‡Ÿ\0ÉãPõÏ(X\\+gÑ®ªûÚT,ÒóëexahîÜÌË\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/basic/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'Phpstorm-659e3df=246c5b04-0978-4e0e-820a-984d808f9be0; ai_user=rxw8v|2017-03-14T21:56:51.222Z; _csrf=f52a00db8224ad797b055e39983d43284f0756259bdf9189ad6dae31a4789abda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%E0%D9%00%83%8BP%9B%EC%28X%5C%2Bg%0D%84%A8%BB%9E%F2T%2C%F1%97%91exah%94%86%ED%E8%22%3B%7D'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP-5.6\\ext;d:\\openserver\\modules\\php\\PHP-5.6\\pear;d:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;d:\\openserver\\modules\\php\\PHP-5.6;d:\\openserver\\modules\\imagemagick;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\git;d:\\openserver\\modules\\git\\bin;d:\\openserver\\modules\\git\\mingw\\bin;d:\\openserver\\modules\\git\\cmd;d:\\openserver\\modules\\database\\MySQL-5.7\\bin;d:\\openserver\\modules\\http\\Apache-2.4\\bin;d:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/localhost/basic/web/index.php'
+    'REMOTE_PORT' => '3437'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fabout'
+    'REQUEST_URI' => '/basic/web/index.php?r=site%2Fabout'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1497461278.427
+    'REQUEST_TIME' => 1497461278
+    'argv' => [
+        0 => 'r=site%2Fabout'
+    ]
+    'argc' => 1
+]
+2017-06-14 20:32:56 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '$user' (T_VARIABLE), expecting ',' or ';'' in D:\OpenServer\domains\localhost\basic\views\users\index.php:9
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-06-14 20:32:56 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/index'
+    'page' => '1'
+]
+
+$_COOKIE = [
+    'Phpstorm-659e3df' => '246c5b04-0978-4e0e-820a-984d808f9be0'
+    'ai_user' => 'rxw8v|2017-03-14T21:56:51.222Z'
+    '_csrf' => 'f52a00db8224ad797b055e39983d43284f0756259bdf9189ad6dae31a4789abda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"‡Ÿ\0ÉãPõÏ(X\\+gÑ®ªûÚT,ÒóëexahîÜÌË\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/basic/web/index.php?r=users%2Findex&page=2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'Phpstorm-659e3df=246c5b04-0978-4e0e-820a-984d808f9be0; ai_user=rxw8v|2017-03-14T21:56:51.222Z; _csrf=f52a00db8224ad797b055e39983d43284f0756259bdf9189ad6dae31a4789abda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%E0%D9%00%83%8BP%9B%EC%28X%5C%2Bg%0D%84%A8%BB%9E%F2T%2C%F1%97%91exah%94%86%ED%E8%22%3B%7D'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP-5.6\\ext;d:\\openserver\\modules\\php\\PHP-5.6\\pear;d:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;d:\\openserver\\modules\\php\\PHP-5.6;d:\\openserver\\modules\\imagemagick;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\git;d:\\openserver\\modules\\git\\bin;d:\\openserver\\modules\\git\\mingw\\bin;d:\\openserver\\modules\\git\\cmd;d:\\openserver\\modules\\database\\MySQL-5.7\\bin;d:\\openserver\\modules\\http\\Apache-2.4\\bin;d:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/localhost/basic/web/index.php'
+    'REMOTE_PORT' => '3524'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users%2Findex&page=1'
+    'REQUEST_URI' => '/basic/web/index.php?r=users%2Findex&page=1'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1497461576.625
+    'REQUEST_TIME' => 1497461576
+    'argv' => [
+        0 => 'r=users%2Findex&page=1'
+    ]
+    'argc' => 1
+]
+2017-06-14 20:33:07 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '$user' (T_VARIABLE), expecting ',' or ';'' in D:\OpenServer\domains\localhost\basic\views\users\index.php:9
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-06-14 20:33:07 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/index'
+    'page' => '1'
+]
+
+$_COOKIE = [
+    'Phpstorm-659e3df' => '246c5b04-0978-4e0e-820a-984d808f9be0'
+    'ai_user' => 'rxw8v|2017-03-14T21:56:51.222Z'
+    '_csrf' => 'f52a00db8224ad797b055e39983d43284f0756259bdf9189ad6dae31a4789abda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"‡Ÿ\0ÉãPõÏ(X\\+gÑ®ªûÚT,ÒóëexahîÜÌË\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/basic/web/index.php?r=users%2Findex&page=2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'Phpstorm-659e3df=246c5b04-0978-4e0e-820a-984d808f9be0; ai_user=rxw8v|2017-03-14T21:56:51.222Z; _csrf=f52a00db8224ad797b055e39983d43284f0756259bdf9189ad6dae31a4789abda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%E0%D9%00%83%8BP%9B%EC%28X%5C%2Bg%0D%84%A8%BB%9E%F2T%2C%F1%97%91exah%94%86%ED%E8%22%3B%7D'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP-5.6\\ext;d:\\openserver\\modules\\php\\PHP-5.6\\pear;d:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;d:\\openserver\\modules\\php\\PHP-5.6;d:\\openserver\\modules\\imagemagick;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\git;d:\\openserver\\modules\\git\\bin;d:\\openserver\\modules\\git\\mingw\\bin;d:\\openserver\\modules\\git\\cmd;d:\\openserver\\modules\\database\\MySQL-5.7\\bin;d:\\openserver\\modules\\http\\Apache-2.4\\bin;d:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/localhost/basic/web/index.php'
+    'REMOTE_PORT' => '3537'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users%2Findex&page=1'
+    'REQUEST_URI' => '/basic/web/index.php?r=users%2Findex&page=1'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1497461587.667
+    'REQUEST_TIME' => 1497461587
+    'argv' => [
+        0 => 'r=users%2Findex&page=1'
+    ]
+    'argc' => 1
+]
+2017-06-14 20:33:41 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '{'' in D:\OpenServer\domains\localhost\basic\views\users\index.php:9
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-06-14 20:33:41 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/index'
+    'page' => '1'
+]
+
+$_COOKIE = [
+    'Phpstorm-659e3df' => '246c5b04-0978-4e0e-820a-984d808f9be0'
+    'ai_user' => 'rxw8v|2017-03-14T21:56:51.222Z'
+    '_csrf' => 'f52a00db8224ad797b055e39983d43284f0756259bdf9189ad6dae31a4789abda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"‡Ÿ\0ÉãPõÏ(X\\+gÑ®ªûÚT,ÒóëexahîÜÌË\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/basic/web/index.php?r=users%2Findex&page=2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'Phpstorm-659e3df=246c5b04-0978-4e0e-820a-984d808f9be0; ai_user=rxw8v|2017-03-14T21:56:51.222Z; _csrf=f52a00db8224ad797b055e39983d43284f0756259bdf9189ad6dae31a4789abda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%E0%D9%00%83%8BP%9B%EC%28X%5C%2Bg%0D%84%A8%BB%9E%F2T%2C%F1%97%91exah%94%86%ED%E8%22%3B%7D'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP-5.6\\ext;d:\\openserver\\modules\\php\\PHP-5.6\\pear;d:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;d:\\openserver\\modules\\php\\PHP-5.6;d:\\openserver\\modules\\imagemagick;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\git;d:\\openserver\\modules\\git\\bin;d:\\openserver\\modules\\git\\mingw\\bin;d:\\openserver\\modules\\git\\cmd;d:\\openserver\\modules\\database\\MySQL-5.7\\bin;d:\\openserver\\modules\\http\\Apache-2.4\\bin;d:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/localhost/basic/web/index.php'
+    'REMOTE_PORT' => '3551'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users%2Findex&page=1'
+    'REQUEST_URI' => '/basic/web/index.php?r=users%2Findex&page=1'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1497461621.542
+    'REQUEST_TIME' => 1497461621
+    'argv' => [
+        0 => 'r=users%2Findex&page=1'
+    ]
+    'argc' => 1
+]
+2017-06-15 09:34:14 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'yiitest'' in D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Connection.php:646
+Stack trace:
+#0 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Connection.php(646): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Connection.php(579): yii\db\Connection->createPdoInstance()
+#2 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Connection.php(928): yii\db\Connection->open()
+#3 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Connection.php(915): yii\db\Connection->getMasterPdo()
+#4 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#5 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Command.php(910): yii\db\Command->prepare('<span class="ke...')
+#6 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Command.php(388): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#7 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Query.php(433): yii\db\Command->queryScalar()
+#8 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\ActiveQuery.php(339): yii\db\Query->queryScalar('<span class="st...', Object(yii\db\Connection))
+#9 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Query.php(319): yii\db\ActiveQuery->queryScalar('<span class="st...', '<span class="ke...')
+#10 D:\OpenServer\domains\localhost\basic\controllers\UsersController.php(17): yii\db\Query->count()
+#11 [internal function]: app\controllers\UsersController->actionIndex()
+#12 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#13 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams('[<span class="s...')
+#14 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#15 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#16 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 D:\OpenServer\domains\localhost\basic\web\index.php(12): yii\base\Application->run()
+#18 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1049] Unknown database 'yiitest'' in D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Connection.php:584
+Stack trace:
+#0 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Connection.php(928): yii\db\Connection->open()
+#1 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Connection.php(915): yii\db\Connection->getMasterPdo()
+#2 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#3 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Command.php(910): yii\db\Command->prepare('<span class="ke...')
+#4 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Command.php(388): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#5 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Query.php(433): yii\db\Command->queryScalar()
+#6 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\ActiveQuery.php(339): yii\db\Query->queryScalar('<span class="st...', Object(yii\db\Connection))
+#7 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\db\Query.php(319): yii\db\ActiveQuery->queryScalar('<span class="st...', '<span class="ke...')
+#8 D:\OpenServer\domains\localhost\basic\controllers\UsersController.php(17): yii\db\Query->count()
+#9 [internal function]: app\controllers\UsersController->actionIndex()
+#10 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#11 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 D:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 D:\OpenServer\domains\localhost\basic\web\index.php(12): yii\base\Application->run()
+#16 {main}
+Additional Information:
+
+2017-06-15 09:34:13 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '958636ad77711317d00afaa5a8b4de655ee475c6d7ec32c132002c24387de4eea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ºùN;¯Bï∫ µ±ﬂ˜Qùax<iVŒÈ◊˛í \";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/basic/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=958636ad77711317d00afaa5a8b4de655ee475c6d7ec32c132002c24387de4eea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%BC%9DN%3B%F8%02B%95%BA%0C+%B5%B1%DF%F7Q%9Dax%3CiV%1A%CE%12%E9%D7%FE%92%1A%CA%0C%22%3B%7D'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP-5.4\\ext;d:\\openserver\\modules\\php\\PHP-5.4\\pear;d:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;d:\\openserver\\modules\\php\\PHP-5.4;d:\\openserver\\modules\\imagemagick;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\git;d:\\openserver\\modules\\git\\bin;d:\\openserver\\modules\\git\\mingw\\bin;d:\\openserver\\modules\\git\\cmd;d:\\openserver\\modules\\database\\MySQL-5.5\\bin;d:\\openserver\\modules\\http\\Apache-2.2\\bin;d:\\openserver\\modules\\http\\Apache-2.2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/localhost/basic/web/index.php'
+    'REMOTE_PORT' => '28384'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users%2Findex'
+    'REQUEST_URI' => '/basic/web/index.php?r=users%2Findex'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1497508453.655
+    'REQUEST_TIME' => 1497508453
+    'argv' => [
+        0 => 'r=users%2Findex'
+    ]
+    'argc' => 1
+]
